@@ -256,7 +256,7 @@ data = new ObjectDataTableAdapter(
 ```
 
 Next we need to define a new column in the template and use `<ng-template/>` to project our own content
-into it. Open the template and add the following code:
+into it. Open the template and add the following code: (change firstname and lastname key to name and createdBy)
 
 ```html
 <data-column key="status" title="Status">
